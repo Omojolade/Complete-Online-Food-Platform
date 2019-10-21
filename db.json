@@ -1,0 +1,226 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": 2560,
+      "yourname": "Omolade",
+      "email": "omoladeomololu@yahoo.com"
+    },
+    {
+      "yourname": "Dimeji",
+      "email": "aina_oladimeji@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "yourname": "desola",
+      "email": "desolaajisafe@yahoo.com",
+      "password": "omolade",
+      "id": 3
+    },
+    {
+      "yourname": "Dimeji",
+      "email": "aina_oladimejidd@gmail.com",
+      "password": "aaass",
+      "id": 4
+    },
+    {
+      "email": "omoladeomololu@gmail.com",
+      "password": "jolade",
+      "isAdmin": true,
+      "id": 5
+    },
+    {
+      "yourname": "Mary",
+      "email": "akanomary@gmail.com",
+      "password": "understanding",
+      "id": 6
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "food": "Fried rice & chicken",
+      "quantity": 1,
+      "price": 1000
+    },
+    {
+      "quantity": 1,
+      "food": "Pancakes",
+      "price": "1200",
+      "id": 2
+    },
+    {
+      "quantity": 1,
+      "food": "Fried Rice",
+      "price": "1200",
+      "id": 3
+    },
+    {
+      "quantity": 1,
+      "food": "Grilled Chicken",
+      "price": "1200",
+      "id": 4
+    },
+    {
+      "quantity": "2",
+      "food": "Boiled Corn Rice",
+      "price": "1200",
+      "id": 5
+    },
+    {
+      "quantity": 1,
+      "food": "Spaghetti",
+      "price": "1200",
+      "id": 6
+    },
+    {
+      "quantity": 2,
+      "food": "Cripsy Chicken",
+      "price": "1200",
+      "id": 7
+    },
+    {
+      "quantity": "1",
+      "food": "Spaghetti",
+      "price": "1000",
+      "id": 8
+    },
+    {
+      "quantity": "3",
+      "food": "harmburger",
+      "price": "4500",
+      "id": 9
+    },
+    {
+      "quantity": 1,
+      "food": "Grilled Chicken",
+      "price": "1200",
+      "id": 10
+    },
+    {
+      "quantity": 1,
+      "food": "Fried Rice",
+      "price": "1200",
+      "id": 11
+    },
+    {
+      "quantity": 1,
+      "food": "chips/doughnut",
+      "price": "1500",
+      "id": 12
+    },
+    {
+      "quantity": "1",
+      "food": "rice and chicken",
+      "price": "1200",
+      "user_id": "1",
+      "id": 13
+    },
+    {
+      "quantity": "3",
+      "food": "Rice and Chicken",
+      "price": "3000",
+      "user_id": "3",
+      "id": 14
+    },
+    {
+      "quantity": "2",
+      "food": "chips/doughnut",
+      "price": "3000",
+      "user_id": "1",
+      "id": 15
+    },
+    {
+      "quantity": "2",
+      "food": "Spaghetti",
+      "price": "2000",
+      "user_id": "1",
+      "id": 16
+    }
+  ],
+  "foods": [
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1RhQ_7Kmm8OsoISGdiQ8CXk3viy3iWtSj_PaYC2qnAIZXaUBs",
+      "name": "Chips/doughnut",
+      "price": "2500",
+      "id": 5
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPqjKllB1pltnCmhFRdfFuvS-BBCtrZt0C8l7QuNK1ejFtttO2",
+      "name": "Spaghetti",
+      "price": "1000",
+      "id": 8
+    },
+    {
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdZa-7ePyoIXbZhFPa1d2L9eJ06_Ad6wrDKPerJ9xlLzVXW8hy",
+      "name": "Cripsy Chicken",
+      "price": "3000",
+      "id": 9
+    },
+    {
+      "image": "./uploadedimages/image010.jpg",
+      "name": "Pancakes",
+      "price": "1000",
+      "admin_id": "1",
+      "id": 10
+    },
+    {
+      "image": "./uploadedimages/image003.jpg",
+      "name": "Boiled Corn Rice",
+      "price": "1500",
+      "admin_id": "2",
+      "id": 11
+    },
+    {
+      "image": "./uploadedimages/image002.jpg",
+      "name": "Pasta",
+      "price": "1500",
+      "admin_id": "1",
+      "id": 12
+    },
+    {
+      "image": "./uploadedimages/Hamburger.jpg",
+      "name": "Hamburger",
+      "price": "1500",
+      "admin_id": "1",
+      "id": 13
+    },
+    {
+      "image": "./uploadedimages/grilledchicken.jpg",
+      "name": "Grilled Chicken",
+      "price": "2500",
+      "admin_id": "1",
+      "id": 14
+    },
+    {
+      "image": "./uploadedimages/friedrice.jpg",
+      "name": "Fried Rice",
+      "price": "1000",
+      "admin_id": "1",
+      "id": 15
+    },
+    {
+      "image": "./uploadedimages/salmon.jpg",
+      "name": "Salmon",
+      "price": "2500",
+      "admin_id": "1",
+      "id": 16
+    }
+  ],
+  "admins": [
+    {
+      "yourname": "masteradmin",
+      "email": "masteradmin@gmail.com",
+      "password": "efiewq",
+      "id": 1
+    },
+    {
+      "yourname": "drecoolguy",
+      "email": "drebadman@gmail.com",
+      "password": "rewinks",
+      "id": 2
+    }
+  ]
+}

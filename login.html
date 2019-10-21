@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foodies|LogInPage</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+</head>
+        <body >
+            <!--<div id="container">
+            <table border="0" width="100%" height="50px">
+                    <tr >
+                        <td width = "16.7%" align="center"bgcolor="black" class="links"><font color="white"> <a href="index.html">Home</a></td>
+                        <td width = "16.7%" align="center" bgcolor="black"class="links"><font color="white"><a href="#">About Us</a></td>
+                        <td width = "16.7%" align="center" bgcolor="black"class="links"><font color="white"><a href="#">How It Works</a></td>
+                        <td width = "16.7%" align="center" bgcolor="black"class="links"><font color="white"><a href="menu.html">Menu</a></td>
+                        <td width = "16.7%"align="center"bgcolor="black"class="links"><font color="white"><a href= "login.html"><button>LogIn</button></a></td>
+                        <td width = "16.7%"align="center"bgcolor="black"class="links"><font color="white"><a href="signup.html">Create An Account</a></td>
+                    </tr>
+            
+                </table> -->
+                <header class="topnav" >
+                    <img src ="images/Foodies.png" width="60" height="60" class="topnav-left"> 
+                         <div class="topnav-right">
+                                 <a  href="index.html">HOME</a>
+                                 <a href="#">HOW IT WORKS</a>
+                               <!--  <a href="menu.html">MENU</a> -->
+                                   <a class="active" href="login.html">LOG IN</a>
+                                   <a  href="signup.html">SIGN UP</a>
+                               </div>
+                             
+                 </header>
+          <!--login form-->
+          <section >
+          <form method="POST" action= "localhost:3000/users">
+              <h2>Log In</h2>
+               <div class="loginform">
+                   <input type="text" placeholder="Email" id="emailLogin">
+                   <input type="password"placeholder="Password" id="passwordLogin" >
+                   <button type='submit' id="button" class="loginSubmitBtn">Users LogIn</button>
+                   
+       <label for='form-switch'>
+                      <p class="text"><strong>Don't have an account yet?<a id="signup" href="signup.html"> Sign Up!</a></p></strong>
+                  </label>
+                   <label>
+                    <p class="text"><strong>Forgot password?<a id="click" href="#"> Click Here!</a></p></strong>
+                   </label>
+               </div>
+           </form>   
+           <p class="regMessage"></p>
+           <p class="checkLogin"></p>
+        </section>
+    </div>
+    <script src="js/jquery.js"></script>
+</body>
+</html>

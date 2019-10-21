@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Foodies|Order</title>
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/adminorder.css">
+</head>
+<body>
+            <!--navigation bar-->
+            <!--<div id="navbar">
+                <li class="nav logout"><a href="index.html">LogOut</a></li>
+                <li class="nav home"><a href="index.html">Home</a></li>
+            </div> -->
+            <header class="topnav" >
+                <img src ="images/Foodies.png" width="60" height="60" class="topnav-left"> 
+                     <div class="topnav-right">
+                             <a  href="index.html">HOME</a>
+                             <a href="#">HOW IT WORKS</a>
+                             <a href="menu.html">MENU</a>
+                               <a href="login.html">LOG IN</a>
+                               <a  href="signup.html">SIGN UP</a>
+                           </div>
+                         
+             </header>
+                <div>
+                    <h2>Make your orders here</h2>
+                    <div id="logout"><a href="index.html">Log out</a></div> <br> <br>
+                    <form method ="POST" action="localhost:3000/orders" id="request">
+                        Quantity: <input type="text"  id="quantity" placeholder="Quantity" >
+                        Food: <input type="text"  id="food" placeholder="Food eg rice and chicken" >
+                        Price: <input type="text"  id="price" placeholder="Price" >
+        
+                    <button type="submit"><a class="orderSubmitBtn" href="index.html">Place order</button>
+                </form>
+                <div id="listfoodorders"></div>
+                </div>
+                <table class="blueTable">
+                    <thead id=yourorders>
+                        Your Orders
+                    </thead>
+                    <tr>
+                    <th>User-id</th>
+                    <th>Food</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                    <td colspan="4">
+                    <div class="links"> </div>
+                    </td>
+                    </tr>
+                    </tfoot>
+                    <tbody>
+                    </tbody>
+                    </table>   
+        <p class="regMessage"></p>
+        <script src="js/jquery.js"></script>
+        <script  src ="js/order.js"></script>
+        <!-- <script src="js/readFoodOrders.js"></script>     -->
+</body>
+</html>
