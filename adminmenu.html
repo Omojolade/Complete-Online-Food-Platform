@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Menu</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/adminmenu.css">
+</head>
+<body>    
+       <!--        <div >
+                   <li class="nav logout"><a href="index.html">log out</a></li>
+                   <li class="nav seeorders"><a href="adminorder.html">See orders</a></li> <br>
+               </div> -->   
+               <header class="topnav" >
+                <img src ="images/Foodies.png" width="60" height="60" class="topnav-left"> 
+                     <div class="topnav-right">
+                             <a  href="admin.html">HOME</a>
+                            <!-- <a href="#">HOW IT WORKS</a>-->
+                            <a class= "active" href="adminmenu.html">MENU</a> 
+                               <a href="adminorder.html">ORDERS</a>
+                               <a href="index.html">LOG OUT</a>
+                           </div>
+                         
+             </header>    
+             <section>  
+       <div>
+           <h2> Menu</h2> 
+           <br>
+           
+           <div id="button-div">
+                   <button id ="add"><a href= "adminadditem.html">Add Item</a></button> 
+           </div>
+           <div>
+            <h2>Search Food Menu</h2>
+            <form >
+                <input type="text" id="searchval" placeholder="Search Food Menu" >
+            <button type="submit" id='searchBtn'>Search</button>
+        </form>
+            <p id="viewSearch"></p>
+        </div>
+           <div class ="container">
+           
+            <div class="food-container">
+
+                    
+
+            </div>
+           </div>
+           
+       </div>
+    </section> 
+
+       <script src="./js/jquery.js"></script>
+       <script src="./js/readCreatedFoods.js"></script>
+       <script src="./js/searchSingleFood.js"></script> 
+   </body>
+   </html>
+  
+           
+                    
+                     
+        

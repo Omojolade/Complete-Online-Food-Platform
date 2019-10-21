@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "password": 2560,
+      "password": "2560",
       "yourname": "Omolade",
       "email": "omoladeomololu@yahoo.com"
     },
@@ -40,75 +40,86 @@
   "orders": [
     {
       "id": 1,
-      "user_id": 3,
+      "user_id": "3",
       "food": "Fried rice & chicken",
       "quantity": 1,
       "price": 1000
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "Pancakes",
       "price": "1200",
-      "id": 2
+      "id": 2,
+      "user_id": "2"
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "Fried Rice",
       "price": "1200",
-      "id": 3
+      "id": 3,
+      "user_id": "2"
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "Grilled Chicken",
       "price": "1200",
-      "id": 4
+      "id": 4,
+      "user_id": "1"
     },
     {
       "quantity": "2",
       "food": "Boiled Corn Rice",
       "price": "1200",
-      "id": 5
+      "id": 5,
+      "user_id": "1"
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "Spaghetti",
       "price": "1200",
-      "id": 6
+      "id": 6,
+      "user_id": "2"
     },
     {
-      "quantity": 2,
+      "quantity": "2",
       "food": "Cripsy Chicken",
       "price": "1200",
-      "id": 7
+      "id": 7,
+      "user_id": "2"
     },
     {
       "quantity": "1",
       "food": "Spaghetti",
       "price": "1000",
-      "id": 8
+      "id": 8,
+      "user_id": "1"
     },
     {
       "quantity": "3",
       "food": "harmburger",
       "price": "4500",
-      "id": 9
+      "id": 9,
+      "user_id": "1"
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "Grilled Chicken",
       "price": "1200",
-      "id": 10
+      "id": 10,
+      "user_id": "1"
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "Fried Rice",
       "price": "1200",
-      "id": 11
+      "id": 11,
+      "user_id": "2"
     },
     {
-      "quantity": 1,
+      "quantity": "1",
       "food": "chips/doughnut",
       "price": "1500",
+      "user_id" : "2",
       "id": 12
     },
     {
@@ -145,18 +156,21 @@
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1RhQ_7Kmm8OsoISGdiQ8CXk3viy3iWtSj_PaYC2qnAIZXaUBs",
       "name": "Chips/doughnut",
       "price": "2500",
+      "admin_id": "1",
       "id": 5
     },
     {
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPqjKllB1pltnCmhFRdfFuvS-BBCtrZt0C8l7QuNK1ejFtttO2",
       "name": "Spaghetti",
       "price": "1000",
+      "admin_id": "1",
       "id": 8
     },
     {
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQdZa-7ePyoIXbZhFPa1d2L9eJ06_Ad6wrDKPerJ9xlLzVXW8hy",
       "name": "Cripsy Chicken",
       "price": "3000",
+      "admin_id": "1",
       "id": 9
     },
     {
