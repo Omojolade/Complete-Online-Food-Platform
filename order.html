@@ -26,7 +26,7 @@
                          
              </header>
                 <div>
-                    <h2>Make your orders here</h2>
+                    <h2>View your orders here</h2>
                     <div id="logout"><a href="index.html">Log out</a></div> <br> <br>
                   <!--  <form method ="POST" action="localhost:3000/orders" id="request">
                         Quantity: <input type="text"  id="quantity" placeholder="Quantity" >
@@ -38,8 +38,8 @@
                 <div id="listfoodorders"></div>
                 </div>
                 <table class="blueTable">
-                    <thead id=yourorders>
-                        Your Orders
+                    <thead>
+                        <p id="yourorders">Your Orders</p>
                     </thead>
                     <tr>
                     <th>User-id</th>
@@ -60,7 +60,8 @@
                     </table>   
         <p class="regMessage"></p>
         <script src="js/jquery.js"></script>
+        <script src="./js/menu.js"></script>
         <script  src ="js/order.js"></script>
-        <!-- <script src="js/readFoodOrders.js"></script>     -->
+        <script src="js/checkUserLogin.js"></script> 
 </body>
 </html>

@@ -1,0 +1,76 @@
+body {
+                margin : 0px;
+}
+.topnav {
+                overflow: hidden;
+                background-color: rgb(163, 155, 155);
+}
+              
+.topnav a {
+                float: left;
+                color: #f2f2f2;
+                padding: 25px 14px;
+                text-decoration: none;
+                font-size: 17px;
+}
+              
+.topnav a:hover {
+                background-color: #ddd;
+                color: black;
+}
+              
+.topnav a.active {
+                background-color: red;
+                color: white;
+}
+              
+.topnav-right {
+                float: right; 
+}
+.topnav-left{
+                padding-left:40px;
+                padding-top:7px;
+}
+section{
+                background-image: url("https://res.cloudinary.com/omojolade/image/upload/v1568712908/Barbequed%20Drumstick.jpg"); 
+                width:100%; 
+                opacity: 0.8; 
+                z-index: -6;
+                height:620px;
+                background-repeat: no-repeat;
+}
+.HomeText {     position: relative;
+                color: black;
+                top:200px;
+                text-align: left;
+                font-size: 32px;
+                margin-left:40px;
+              }
+.HomeText p {
+                font-size:40px;
+        }           
+#homelink {
+                color:white;
+                font-size:18px;
+                text-decoration: none;
+                padding:4px;
+                border-radius: 25px;
+                background:red;
+                display: block;
+                text-align: center;
+                cursor: pointer;
+                width: 150px;
+              } 
+#homelink a {
+                color:white;
+        }
+.HomeWord {
+                font-size:45px;
+        }
+body a {
+                text-decoration: none;
+        }
+#admin {
+                font-size: 20px
+        }
+    

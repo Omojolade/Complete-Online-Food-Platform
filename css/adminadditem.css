@@ -1,0 +1,23 @@
+#addfood a{
+    text-decoration: none;
+    color:white;
+}
+#addfood{
+    color:white;
+    margin-left: 160px;
+    padding-left: 10px;
+    background-color:red;
+    width: 10%;
+    font-size: 1em;
+    text-decoration:none;
+    border-radius:10px;
+}
+#request {margin-left: 20px;
+          padding-left:10px  
+}
+#meal-name  {margin-left: 15px;
+            padding-left:10px  
+} 
+#price {margin-left: 55px;
+    padding-left:10px  
+}            
