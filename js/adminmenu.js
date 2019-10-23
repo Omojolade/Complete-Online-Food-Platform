@@ -63,7 +63,7 @@ $(document).ready(function() {
                 }
                 else{
                     console.log(mealName);
-                let food = {image: "./uploadedimages/" + mealImage, name: mealName, price: mealPrice}
+                let food = {image: mealImage, name: mealName, price: mealPrice}
                     event.preventDefault();
                 
                 $.ajax({

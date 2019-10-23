@@ -82,7 +82,7 @@ $(document).ready(function() {
             
                     },
                     success: function(response) {
-                      alert("gbenga")
+                      alert("omolade")
                         console.log(response, 'response')
                       if (response) {
                         $('.regMessage').html('Order Placed Successfully');
